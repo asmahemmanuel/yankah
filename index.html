@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smilesgh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cc3ff30649.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/phone-background.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>SMILES</p>
+            <h1>Hi, I'm <span>Yankah</span><br>your personal dentist</h1><br /><hr /><br />
+            <p>All services are accessible with a 10% discount, and walk-in customers are welcome.</p>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <h3>Mr. Yankah, a native of Ghana, established SMILES. We are a group of professionals who collaborate with medical facilities and dentistry offices all over the world.
+                    We offer a range of services to patients. We have operations in Accra in addition to having our main office there.
+                </h3><br/><hr/><br/>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('general')">GENERAL DENTISTRY</p>
+                    <p class="tab-links" onclick="opentab('cosmetic')">COSMETIC DENTISTRY</p>
+                    <p class="tab-links" onclick="opentab('emergency')">EMERGENCY DENTAL CARE</p>
+                </div>
+                <div class="tab-contents active-tab" id="general">
+                    <h2>A number of treatments and procedures used in general dentistry can
+                        protect dental health and keep it in good condition.
+                        Your teeth, gums, and mouth can all be kept healthy and pain-free with the help of certain treatments.</h2><br />
+                    <a href="https://www.newmouth.com/dentistry/general/">Read more</a>
+                </div>
+                <div class="tab-contents" id="cosmetic">
+                    <h2>The goal of the area of dentistry known as cosmetic dentistry is to improve the appearance of your smile.
+                        Veneers, dental bonding, and tooth whitening are examples of common cosmetic dental procedures.
+                        the act of placing dental material on the gums or teeth.</h2><br />
+                    <a href="https://www.newmouth.com/dentistry/cosmetic/">Read more</a>
+                </div>
+                <div class="tab-contents" id="emergency">
+                    <h2>Dental emergencies are anything but usual. majority of dental crises
+                        In order to handle significant pain, discomfort, or mouth injuries that could result in bleeding, quick and obvious intervention is essential.
+                        gum laceration, tooth displacement, or tooth fracture.</h2><br />
+                    <a href="https://www.newmouth.com/emergency-dental-care/">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------services-------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-tooth"></i>
+                <h2>DENTAL FILLINGS</h2>
+                <p>A filling is used to treat a small hole, or cavity, in a tooth. To repair a cavity, 
+                a dentist removes the decayed tooth tissue and then fills the space with a filling material.</p>
+                <!-- <a href="#">Read more</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-face-grimace"></i>
+                <h2>ROUTINE EXAMS</h2>
+                <p>Routine Exam means examination of the physical body by a Doctor for 
+                preventive or informative purposes only, 
+                and not for the diagnosis or treatment of any condition.</p>
+                <!-- <a href="#">Read more</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-teeth-open"></i>
+                <h2>TEETH WHITENING</h2>
+                <p>Whitening may be accomplished by physical removal of the stain or a chemical reaction to 
+                lighten the tooth color. Bleaching is defined here as the chemical degradation of the chromogens.</p>
+                <!-- <a href="#">Read more</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------works------------------ -->
+<div id="works">
+    <div class="container">
+        <h1 class="sub-title">SMILES</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://media.istockphoto.com/photos/successful-dentist-appointment-picture-id1057915180?k=20&m=1057915180&s=612x612&w=0&h=ueudzBLwsG4wVE5oqpl2RsAMEAkltwXIhNls0B-hNWs=">
+                <div class="layer">
+                    <h3>GENERAL DENTISTRY</h3>
+                    <p>General dentistry covers a range of treatment options and procedures 
+                    fundamental to protecting and maintaining a good standard of oral health.</p>
+                    <a href="https://www.newmouth.com/dentistry/general/">Read</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://media.istockphoto.com/photos/woman-wearing-orthodontic-silicone-trainer-invisible-braces-aligner-picture-id1226447065?k=20&m=1226447065&s=612x612&w=0&h=kq8tnQqiyscetn-BDz83FAVsiI2acuSRy9RiPe-M2gU=">
+                <div class="layer">
+                    <h3>COSMETIC DENTISTRY</h3>
+                    <p>Cosmetic dentistry is dentistry aimed at creating a positive change to your teeth and to your smile.</p>
+                    <a href="https://www.newmouth.com/dentistry/cosmetic/">Read</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://media.istockphoto.com/photos/model-of-teeth-and-miniature-ambulance-picture-id654127762?k=20&m=654127762&s=612x612&w=0&h=lbpOmDi41L-x518LB3ABS2emvWiwhfRURfO2D7DXE8s=">
+                <div class="layer">
+                    <h3>EMERGENCY DENTAL CARE</h3>
+                    <p>In general, any dental problem that needs immediate treatment to stop bleeding, alleviate severe pain, 
+                    or save a tooth is considered an emergency.</p>
+                    <a href="https://www.newmouth.com/emergency-dental-care/">Read</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------testimonials----------------- -->
+
+    <section class="testimonials section" id="testimonials">
+        <div class="container"><br />
+            <h1 class="sub-title">Testimonials</h1>
+
+          <div class="testi-content grid-2">
+            <div class="column-1 reviews">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                        A SMILES employee was introduced to me once I had the opportunity to do so.
+                        My nine-year tooth rotting ordeal came to an end. My pain and degradation are completely gone at this point.</p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Esther</h3>
+                      <h5 class="review-job">USA</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                        I had terrible gum discomfort when I phoned SMILES, and now I can smile without smelling unpleasant.
+                        Also, I received some gold braces.</p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Rans</h3>
+                      <h5 class="review-job">Ghana</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                        Silver teeth were given to me by SMILES! I just have to brag about how wonderful I'm feeling right now. 
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Bruce</h3>
+                      <h5 class="review-job">Tokyo</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                        I still like taking the regular tests, and I'm doing great.
+                        I just like to regularly inspect my teeth with SMILES.</p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Ohemaa</h3>
+                      <h5 class="review-job">Malawi</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+</div>
+<!-- --------------------contact--------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>samjelyankah123@gmail.com</p>
+                <p>Tel: +99 555 000 800</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/asmahsings"><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href="https://t.me/asmahsings"><i class="fa-brands fa-telegram"></i></a>
+                </div><br />
+                <a href="https://script.google.com/macros/s/AKfycbyCyUg28stUG1LD-vSTyu6WvuHgFxlrxkoko2fywDRPHIdPHqrCIuBkRq93U7ayAr0-4A/exec" class="active">STAFF ONLY</a><br />
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <p>Please wait for 4 seconds after clicking on the SUBMIT button.</p>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © 2022 SMILES | GHANA</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwgrFvkunBg-96eTSESY1wr6wy20jdz26uV7RMYZKbQlwl5dNrJNXLrjFuceI3THxcvzA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
